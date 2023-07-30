@@ -7,7 +7,12 @@ import { Gallery } from "../components/gallery";
 import { Team } from "../components/Team";
 import { Contact } from "../components/contact";
 import { useEffect, useState } from "react";
-import JsonData from ".././data/data.json";
+import JsonData from "../data/data.json";
+import "../css/style.css";
+import "../css/nivo-lightbox/default.css";
+import "../css/bootstrap.css";
+
+//import "../css/bootstrap.min.css";
 
 const Home = () => {
   const [landingPageData, setLandingPageData] = useState({});
